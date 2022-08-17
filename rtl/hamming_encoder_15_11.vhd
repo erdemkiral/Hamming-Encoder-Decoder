@@ -6,14 +6,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity hamming_encoder is
+entity hamming_encoder_15_11 is
 port ( 
 		data_i    : in std_logic_vector(10 downto 0);
 		hamming_o : out std_logic_vector(14 downto 0)
 );
-end hamming_encoder;
+end hamming_encoder_15_11;
 
-architecture Behavioral of hamming_encoder is
+architecture Behavioral of hamming_encoder_15_11 is
 
 signal parity : std_logic_vector(3 downto 0);
 
