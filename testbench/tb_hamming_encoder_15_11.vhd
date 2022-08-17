@@ -1,12 +1,17 @@
+-- Create Date: 17.08.2022 18:45:56
+-- Module Name: tb_hamming_encoder_15_11 - Behavioral
+-- Description: (15,11) HAMMING ENCODER  TESTBENCH
+
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.std_logic_arith.all;
 use IEEE.std_logic_unsigned.all;
 
-entity tb_hamming is
-end tb_hamming;
+entity tb_hamming_encoder_15_11 is
+end tb_hamming_encoder_15_11;
 
-architecture Behavioral of tb_hamming is
+architecture Behavioral of tb_hamming_encoder_15_11 is
 
 component hamming_encoder is
 port ( 
